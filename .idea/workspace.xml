@@ -26,28 +26,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eaf01ed-95a3-4899-af3e-a3ef57bd2d61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/linked_list_library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/linked_list_library/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list_library.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/linked_list_library_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/linked_list_library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linked_list_library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/linked_list.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list_library.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_library.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/linked_list_library_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_library_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="305" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +73,42 @@
       <command value="cp ../&quot;Template Files&quot;/class_name.rb lib/linked_list.rb" />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="LinkedListLibraryTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="linked_list_library" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/linked_list_library_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.LinkedListLibraryTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -87,11 +120,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587605218260</updated>
-      <workItem from="1587605221222" duration="1424000" />
+      <workItem from="1587605221222" duration="4455000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Wrote Gem Specification. Generated project files.">
+      <created>1587606843795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587606843796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem:{ No Subsystem } Component: Library Sprints: 4 State: Setup " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem:{ No Subsystem } Component: Library Sprints: 4 State: Development" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -99,27 +140,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup Complete&#10;&#10;Wrote Gem Specification. Generated project files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Wrote Gem Specification. Generated project files." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="425" y="175" key="#Servers" timestamp="1587605279632">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="425" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587605279632" />
-    <state width="1541" height="269" key="GridCell.Tab.0.bottom" timestamp="1587606702727">
+    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2" timestamp="1587606843214">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1541" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587606702727" />
-    <state width="1541" height="269" key="GridCell.Tab.0.center" timestamp="1587606702726">
+    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587606843214" />
+    <state width="1541" height="269" key="GridCell.Tab.0.bottom" timestamp="1587693418118">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1541" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587606702726" />
-    <state width="1541" height="269" key="GridCell.Tab.0.left" timestamp="1587606702726">
+    <state width="1541" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587693418118" />
+    <state width="1541" height="269" key="GridCell.Tab.0.center" timestamp="1587693418117">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1541" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587606702726" />
-    <state width="1541" height="269" key="GridCell.Tab.0.right" timestamp="1587606702727">
+    <state width="1541" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587693418117" />
+    <state width="1541" height="269" key="GridCell.Tab.0.left" timestamp="1587693418116">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1541" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587606702727" />
+    <state width="1541" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587693418116" />
+    <state width="1541" height="269" key="GridCell.Tab.0.right" timestamp="1587693418117">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1541" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587693418117" />
     <state x="417" y="235" width="816" height="550" key="find.popup" timestamp="1587605934561">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -128,9 +178,12 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="490" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587605542687" />
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587606017032">
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587693858014">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587606017032" />
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587693858014" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/linked_list_library@LinkedListLibraryTest.rcov" NAME="LinkedListLibraryTest Coverage Results" MODIFIED="1587693413168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_library" />
   </component>
 </project>

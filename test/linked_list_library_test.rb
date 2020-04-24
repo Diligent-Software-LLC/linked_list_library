@@ -7,8 +7,8 @@ class LinkedListLibraryTest < Minitest::Test
 
   # test_conf_doc_f_ex().
   # @description
-  #  The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md, 
-  #  and .yardopts files exist.
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #   and .yardopts files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -35,9 +35,8 @@ class LinkedListLibraryTest < Minitest::Test
 
   # teardown().
   # @description
-  #  Cleanup.
+  #   Cleanup.
   def teardown()
   end
 
 end
-
