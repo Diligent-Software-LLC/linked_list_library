@@ -164,10 +164,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="425" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587605279632" />
-    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2" timestamp="1587694093024">
+    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2" timestamp="1587731860695">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587694093024" />
+    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587731860695" />
     <state width="1541" height="269" key="GridCell.Tab.0.bottom" timestamp="1587693418118">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -196,10 +196,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="490" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587605542687" />
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587731667976">
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587731904775">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587731667976" />
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587731904775" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_library@LinkedListLibraryTest.rcov" NAME="LinkedListLibraryTest Coverage Results" MODIFIED="1587693413168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_library" />

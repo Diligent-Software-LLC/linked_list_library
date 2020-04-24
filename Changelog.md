@@ -11,6 +11,7 @@
 
 - linked_list_library_test.rb format.
 - data_structure_library dependency.
+- Deleted Travis CI deployment settings.
 
 ### Fixed
 
