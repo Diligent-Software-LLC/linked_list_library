@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.0, 2020-04-27
+
+### Added
+
+### Edited
+
+### Fixed
+
+- linked_list.rb 'require' data_library statement.
+
 ## v0.1.0, 2020-04-24
 
 ### Added

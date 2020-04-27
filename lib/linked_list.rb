@@ -5,7 +5,7 @@ require_relative "linked_list_library/version"
 require 'linked_list_int'
 require 'linked_list_impl'
 require 'data_structure'
-require 'data_library'
+require 'data_type'
 require 'node'
 require 'linked_list_iterator'
 
