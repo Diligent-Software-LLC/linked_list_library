@@ -45,6 +45,7 @@ available at $1, $2, $4, $8, and $16. Greatly appreciated.}
 
   # Gem specific runtime dependencies.
   spec.add_runtime_dependency 'linked_list_comp', '~> 0'
+  spec.add_runtime_dependency 'data_structure_library', '~> 2'
   spec.add_runtime_dependency 'data_library', '~> 0'
   spec.add_runtime_dependency 'node', '~> 4'
   spec.add_runtime_dependency 'linked_list_iterator', '~> 1'

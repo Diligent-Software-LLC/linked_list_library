@@ -2,8 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "linked_list_library/version"
-require 'linked_list_int'
-require 'linked_list_impl'
+require 'linked_list_comp'
 require 'data_structure'
 require 'data_type'
 require 'node'
