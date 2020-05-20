@@ -28,10 +28,10 @@
     <list default="true" id="0eaf01ed-95a3-4899-af3e-a3ef57bd2d61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/linked_list_library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linked_list_library.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/linked_list_library/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_library/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list_library.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_library.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587605218260</updated>
       <workItem from="1587605221222" duration="6453000" />
-      <workItem from="1588026048244" duration="316000" />
+      <workItem from="1588026048244" duration="646000" />
+      <workItem from="1589999849771" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Wrote Gem Specification. Generated project files.">
       <created>1587606843795</created>
@@ -170,10 +171,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587732178174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Prepare Deployment&#10;&#10;Bumped Minor Version. Fixed linked_list.rb's 'require' data_library statement.">
+      <created>1588026440528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588026440528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem:{ No Subsystem } Component: Library Sprints: 4 State:{Setup} " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem:{ No Subsystem } Component: Library Sprints: 9 State:{Setup} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -198,7 +206,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Wrote Gem Specification. Generated project files." />
     <MESSAGE value="Development Complete&#10;&#10;'require'd the component files. Formatted the linked_list_library_test.rb. Fixed 'require' statement in test_helper.rb. Updated data_structure_library dependency." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Bumped Minor Version. Fixed linked_list.rb's 'require' data_library statement. Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Bumped Minor Version. Fixed linked_list.rb's 'require' data_library statement. Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -206,34 +215,38 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="425" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587605279632" />
-    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2" timestamp="1587732177901">
+    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2" timestamp="1588026440294">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587732177901" />
-    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1588026163175">
+    <state x="93" y="66" width="1465" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588026440294" />
+    <state x="529" y="434" key="GitRewordDialog" timestamp="1588026468124">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1588026163175" />
-    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1588026163174">
+    <state x="529" y="434" key="GitRewordDialog/0.23.1680.975@0.23.1680.975" timestamp="1588026468124" />
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1590000705305">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1588026163174" />
-    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1588026163173">
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590000705305" />
+    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1590000705305">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1588026163173" />
-    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1588026163174">
+    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590000705305" />
+    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1590000705304">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1588026163174" />
+    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590000705304" />
+    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1590000705305">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590000705305" />
     <state x="334" y="149" key="SettingsEditor" timestamp="1587731635715">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="334" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1587731635715" />
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587732982015">
+    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1588026608442">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587732982015" />
+    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588026608442" />
     <state x="417" y="235" width="816" height="550" key="find.popup" timestamp="1587605934561">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -242,12 +255,12 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="490" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587733022363" />
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588026181344">
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590000778153">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588026181344" />
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590000778153" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/linked_list_library@LinkedListLibraryTest.rcov" NAME="LinkedListLibraryTest Coverage Results" MODIFIED="1587693413168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_library" />
+    <SUITE FILE_PATH="coverage/linked_list_library@LinkedListLibraryTest.rcov" NAME="LinkedListLibraryTest Coverage Results" MODIFIED="1588026616544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_library" />
   </component>
 </project>

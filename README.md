@@ -4,31 +4,33 @@ A LinkedList library. Organizes the LinkedList components.
 
 ## Installation
 
-- Refer the [packages](https://docs.diligentsoftware.org/linkedlist-1/packages) page.
+- Refer Library's 
+[Packages](https://docs.diligentsoftware.org/linkedlist-1/packages#library).
 
 ## Documentation
 
-- Refer the [Library](https://docs.diligentsoftware.org/linkedlist-1) homepage.
+- Refer Library's [Homepage](https://docs.diligentsoftware.org/linkedlist).
 
 ## Contributing
 
 ### Donate
 
 Donations support continuous improvement and maintenance. The aim is a reliable,
-integrable, and endurable LinkedList library. Make a donation at the 
-project's collective page: https://opencollective.com/linkedlist. 
-One-time and recurring donations are available at $1, $2, $4, $8, and $16. 
-Greatly appreciated.
+integrable, and endurable LinkedList library. Make a donation at the project's 
+collective page: https://opencollective.com/linkedlist. One-time and recurring 
+donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
 
 ### Report Bugs
 
-Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/linked_list_library/issues/1).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/linked_list_library/issues/1).
 
 ### Fix Bugs
 
-Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/linked_list_library/issues/2).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/linked_list_library/issues/2).
 
 ### Improve Functionality
 
-Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/linked_list_library/issues/3).
-
+- Refer the 
+[Improvements Procedure](https://github.com/Diligent-Software-LLC/linked_list_library/issues/3).

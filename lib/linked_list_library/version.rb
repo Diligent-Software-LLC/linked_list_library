@@ -5,5 +5,5 @@
 # @class_description
 #   A LinkedList library. Organizes the LinkedList components.
 class LinkedListLibrary
-  VERSION = '0.2.0'.freeze()
+  VERSION = '0.3.0'.freeze()
 end
