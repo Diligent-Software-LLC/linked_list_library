@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.3.0, 2020-05-20
+
+### Added
+
+- 'require'd linked_list_comp.
+- Test coverage.
+
+### Edited
+
+- Gem Specification email, summary, description, and dependencies.
+- README.md's Installation content, Documentation content, and formatting.
+
+### Fixed
+
 ## v0.2.0, 2020-04-27
 
 ### Added

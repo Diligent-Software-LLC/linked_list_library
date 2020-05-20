@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eaf01ed-95a3-4899-af3e-a3ef57bd2d61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/linked_list_library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linked_list_library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_library.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_library.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_library_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_library_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +129,7 @@
       <updated>1587605218260</updated>
       <workItem from="1587605221222" duration="6453000" />
       <workItem from="1588026048244" duration="646000" />
-      <workItem from="1589999849771" duration="1951000" />
+      <workItem from="1589999849771" duration="2548000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Wrote Gem Specification. Generated project files.">
       <created>1587606843795</created>
@@ -185,10 +180,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590001081528</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Development Complete&#10;&#10;'require'd linked_list_comp. Added test coverage. Readded data_structure_library dependency.">
+      <created>1590001944134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590001944134</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem:{ No Subsystem } Component: Library Sprints: 9 State: {Development}" />
+        <option name="defaultSearch" value="project: LinkedList Subsystem:{ No Subsystem } Component: Library Sprints: 9 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -215,17 +217,18 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Bumped Minor Version. Fixed linked_list.rb's 'require' data_library statement. Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification email, summary, description, and dependencies. Edited README.md's Installation content, Documentation content, and formatting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification email, summary, description, and dependencies. Edited README.md's Installation content, Documentation content, and formatting." />
+    <MESSAGE value="Development Complete&#10;&#10;'require'd linked_list_comp. Added test coverage. Readded data_structure_library dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;'require'd linked_list_comp. Added test coverage. Readded data_structure_library dependency." />
   </component>
   <component name="WindowStateProjectService">
     <state x="425" y="175" key="#Servers" timestamp="1587605279632">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="425" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587605279632" />
-    <state x="57" y="47" width="1549" height="907" key="CommitChangelistDialog2" timestamp="1590001081164">
+    <state x="57" y="47" width="1549" height="907" key="CommitChangelistDialog2" timestamp="1590001943885">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="57" y="47" width="1549" height="907" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590001081164" />
+    <state x="57" y="47" width="1549" height="907" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590001943885" />
     <state x="529" y="434" key="GitRewordDialog" timestamp="1588026468124">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -262,10 +265,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="490" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587733022363" />
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590001846300">
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590002331651">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590001846300" />
+    <state x="490" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590002331651" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_library@LinkedListLibraryTest.rcov" NAME="LinkedListLibraryTest Coverage Results" MODIFIED="1590001775944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_library" />
